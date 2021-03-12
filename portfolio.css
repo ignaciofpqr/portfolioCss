@@ -20,9 +20,9 @@ img {
     margin: auto;
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
+    padding-top: 200px;
     position: absolute;
     z-index: 1;
     max-width: 70%;
@@ -32,7 +32,7 @@ img {
     background-color: rgba (0, 0, 0, 0.4);
 }
 
-.modalContenido {
+.modalcontent {
     position: relative;
     background-color: white;
     margin: auto;
@@ -46,7 +46,7 @@ img {
     animation-duration: 0.4s
 }
 
-/* Animaciones */
+/* Animaciones
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
@@ -55,17 +55,50 @@ img {
 @keyframes animatetop {
     from {top: -300px; opacity: 0;}
     to {top: 0; opacity: 1;}
+} */
+
+
+.imagenAboutMe {
+    max-height: 100%;
 }
 
-.close {
+.close1 {
     color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close3:hover,
+.close3:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
